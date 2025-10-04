@@ -1,5 +1,26 @@
-pypdf
+# Core dependencies
 langchain
-chromadb # Vector storage
-pytest
+langchain-community
+langchain-text-splitters
+chromadb
+pypdf
+ollama
+
+# AWS dependencies (for potential cloud usage)
 boto3
+botocore
+
+# Math and array utilities
+numpy
+
+# Web framework
+flask
+
+# Twilio for WhatsApp integration
+twilio
+
+# Environment variable management
+python-dotenv
+
+# Logging (standard library, but listed for clarity)
+logging
